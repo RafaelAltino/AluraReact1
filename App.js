@@ -8,6 +8,8 @@ import {
 } from '@expo-google-fonts/montserrat';
 import mock from "./src/mocks/cesta";
 import AppLoading from 'expo-app-loading';
+import * as SplashScreen from 'expo-splash-screen';
+
 
 export default function App() {
   

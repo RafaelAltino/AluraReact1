@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, StyleSheet, View, FlatList } from 'react-native';
+import { StyleSheet, View, FlatList } from 'react-native';
 import Topo from './componentes/Topo';
 import Detalhes from './componentes/Detalhes';
 import Item from './componentes/Item';

@@ -22,9 +22,10 @@ export default function App() {
     return <AppLoading />
   }
 
+/* flex: 1 -> Faz a view ser do tamanho da tela */
+<StatusBar/>
   return (
-    <SafeAreaView>
-      <StatusBar/>
+    <SafeAreaView style={{ flex: 1 }}>  
       <Cesta {...mock}/> 
     </SafeAreaView>
   );
